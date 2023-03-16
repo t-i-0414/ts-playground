@@ -10,12 +10,3 @@ export const checkBraces = (input: string): boolean => {
 
   return checkBraces(result);
 };
-
-console.log(checkBraces("()"));
-console.log(checkBraces(")("));
-console.log(checkBraces("("));
-console.log(checkBraces(")"));
-console.log(checkBraces("()()"));
-console.log(checkBraces("(())"));
-console.log(checkBraces("(())"));
-console.log(checkBraces("(()))("));
